@@ -9,7 +9,7 @@ Examples of linked content could include a TikTok, CashApp, Instagram, PayPal, Y
 -- General Workflow:
 
 A QR code is created and linked to a randomly generated Beam code address.
-Exmple: beam.codes/dZ6efp
+Example: beam.codes/dZ6efp
 
 On first visit, the user is redirected to the admin page of said Beam code.
 Example: beam.codes/dZ6efp/admin
@@ -26,6 +26,6 @@ Example: Selecting "Link to Twitter" deselects any other buttons, and expands th
 
 -- Notes
 
-1. Limiting the set of buttons / destinations that can be linked to is intentional to control the user's onboarding experience. This is subject to change at the market acquires a general understaning of the platform.
+1. Limiting the set of buttons / destinations that can be linked to is intentional to control the user's onboarding experience. This is subject to change as the market acquires a general understanding of the platform.
 
 2. Redirect paths for the Beam code should be updated as the user selects, and enters text into the button's exposed text field. (No publish or submit button should be required)
