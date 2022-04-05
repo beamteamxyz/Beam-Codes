@@ -2,10 +2,10 @@
 <html lang="en">
   <head onload=ActiveLink()></head>
   <script>
-    localStorage.setItem('activelink', 'google.com');	
+    window.localStorage.setItem('activelink', 'google.com');	
 
 function ActiveLink() {
-	document.location.href="localstorage.getItem(activelink)"
+	document.location.href="window.localstorage.getItem(activelink)"
 }
  </script>
 </html>
