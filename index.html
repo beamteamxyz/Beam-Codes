@@ -1,4 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head onload=ActiveLink()></head>
+  <script>
+    localStorage.setItem('activelink', 'google.com');	
+
+function ActiveLink() {
+	document.location.href="localstorage.getItem(activelink)"
+}
+ </script>
 </html>
